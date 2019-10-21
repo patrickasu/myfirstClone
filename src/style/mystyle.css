@@ -1,0 +1,736 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body 
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.main-content{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container{
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.nav-img{
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://ak9.picdn.net/shutterstock/videos/27170209/thumb/12.jpg');
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	border-bottom: 30px solid #ba353f;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	padding: 20px 30px;
+}
+
+.navigation-link{
+	display: inline-block;
+	text-decoration: none;
+	margin: 10px;
+	color: #fff;
+}
+
+.navigation-menu li:hover{
+	background-color: #ff9c23;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.navigation-menu li{
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: 'Oswail', sans-serif;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.navigation-link.active{
+	color: #ba353f;
+	padding: 5px 5px;
+}
+
+nav span{
+	color: #ba353f;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-span{
+	color: #fff;
+	padding-right: 220px;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-header1{
+	color: #fff;
+	padding-top: 120px;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.nav-header2{
+	color: #fff;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+
+.nav-header2{
+	color: #fff;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+
+.contactus-link{
+	color: #fff;
+	background-color: #ba353f; 
+	margin-left: 25px;
+	text-decoration: none;
+	padding: 10px 20px;	
+}
+
+.about-row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+	padding-top: 60px;
+}
+
+.about-col{
+	width: 50%;
+	padding: 50px;
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+}
+
+.aboutus-row{
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.aboutus-col{
+	width: 100%;
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+}
+
+.aboutus-description h1{
+	font-family: 'Oswail', sans-serif;
+	color: #ba353f;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.aboutus-description p{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.about-span{
+	display: inline-block;
+	color: #232323;
+	margin-bottom: 15px;
+	font-weight: bolder;
+	font-size: 35px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.about-span2{
+	display: inline-block;
+	color: #464646;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	font-size: 35px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.about-des{
+	margin-bottom: 10px;
+}
+
+.about-des-span{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.about-link{
+	color: #fff;
+	background-color: #ba353f; 
+	text-decoration: none;
+	border-radius: 2px solid #ba353f;
+	padding: 10px 20px;	
+}
+
+.about-image{
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 380px;
+}
+.about-image{
+	background-image: url('https://yourfuturenow.co.za/wp-content/uploads/2015/10/Savvy-Students.jpg');
+
+}
+
+.service-section{
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 30px;
+}
+
+.service-span{
+	margin-left: 50px;
+}
+
+.service-span2{
+	margin-left: 50px;
+	margin-bottom: 35px;
+	display: inline-block;
+}
+
+.ser-span{
+	display: inline-block;
+	color: #464646;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-left: 50px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.ser-span2{
+	display: inline-block;
+	color: #232323;
+	font-weight: bolder;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	font-size: 35px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.ser-header{
+	display: inline-block;
+	font-size: 10px;
+}
+
+.fa-tools,
+.fa-satellite-dish,
+.fa-handshake,
+.fa-thumbs-up{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 10px;
+	color: #ba353f;
+	font-size: 30px;
+}
+
+.fa-satellite-dish{
+	padding-top: 60px;
+}
+
+.services-section{
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.service-text{
+	text-align: center;
+	color: #bf0662;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Rochester', cursive;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+.service-header{
+	text-align: center;
+	color: #f0f0f0;
+	font-size: 25px;
+	font-weight: 900;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+
+.my-services-header{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Oswail', sans-serif;
+	font-weight: bolder;
+}
+
+.services-col{
+	padding: 20px;	
+}
+
+.services-col p{
+	color: #f0f0f0;
+	font-size: 15px;
+}
+
+.ourtoggle-col p{
+	height: 0;
+	padding: 0 15px;
+	overflow: hidden;
+	transition: height .5s ease-out, padding .5s ease-out;
+	background: #b3f7b1;
+	text-align: justify;
+}
+
+.ourtoggle-col h2{
+	font-size: 16px;
+}
+
+.div-one,
+.div-two,
+.div-three{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 1px solid #aaa;
+	background: #2f6562;
+}
+
+a:active{
+	color: #fff;
+}
+
+:target + p{
+	padding: 10px 15px;
+	border-bottom: 1px solid #ccc;
+	background: #b3f7b1;
+}
+
+#div-one:target + p{
+	height: 100px;
+	background: #b3f7b1;
+}
+
+#div-two:target + p{
+	height: 200px;
+	background: #b3f7b1;
+}
+
+#div-three:target + p{
+	height: 300px;
+	background: #b3f7b1;
+}
+
+.accordion section p{
+	display: none;
+	text-align: center;
+}
+
+.accordion section a{
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+.accordion section a:hover{
+	text-decoration: underline;
+}
+
+.accordion section:target p{
+	display: block;
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+section{
+	background-color: #bf0662;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 250px;
+}
+
+.toggle-one{
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.portfolio-section{
+	display: flex;
+	margin-top: 20px;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.portfolio-section-image-1,
+.portfolio-section-image-2,
+.portfolio-section-image-3,
+.portfolio-section-image-4{
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	height: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-span{
+	display: inline-block;
+	margin-top: 50px;
+	color: #464646;
+	font-size: 35px;
+	text-align: left;
+	margin-left: 15px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.portfolio-span2{
+	display: inline-block;
+	color: #232323;
+	font-weight: bolder;
+	margin-left: 10px;
+	font-size: 35px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.portfolio-section-image-1{
+	background-image: url('https://images.unsplash.com/photo-1554260570-83dc2f46ef79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+}
+
+.portfolio-section-image-2{
+	background-image: url('https://images.unsplash.com/photo-1571095490542-844ba2b703f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=343&q=80');
+}
+
+.portfolio-section-image-3{
+	background-image: url('https://www.ignitespot.com/hs-fs/hubfs/Payroll-Accounting-Service.jpg?width=402&name=Payroll-Accounting-Service.jpg');
+}
+
+.portfolio-section-image-4{
+	background-image: url('https://images.unsplash.com/photo-1562101660-ca667b57853f?ixlib=rb-1.2.1&auto=format&fit=crop&w=364&q=80');
+}
+
+.portfolio-overlay{
+	background-color: #ba353f;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	opacity: 0.9;
+	transition: all 0.4s ease-in-out;
+}
+
+.delicacies-overlay{
+	background-color: #ba353f;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+.delicacies-overlay-border{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.portfolio-section-image-1:hover .delicacies-overlay,
+.portfolio-section-image-4:hover .delicacies-overlay,
+.portfolio-section-image-3:hover .delicacies-overlay{
+	opacity: 0.9;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.portfolio-overlay-border{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.portfolio-section-image-2:hover .portfolio-overlay{
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.myportfolio-section{
+	width: 220px;
+	height: 200px;
+	justify-content: center;
+}
+
+.team-section-image-1,
+.team-section-image-2,
+.team-section-image-3{
+	background-size: cover;
+	background-position: center;
+	width: 220px;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tevbgham-section-image-1{
+	background-image: url('http://onobello.com/wp-content/uploads/2017/03/Adesimbo-Ukiri.png');
+}
+
+.tejuham-section-image-2{
+	background-image: url('https://2.bp.blogspot.com/-DazVN1xGnsw/W2Y9pbQNnKI/AAAAAAAAZmk/QcNxINornSQpyAUzwXQsrKQlpa4igqlxgCLcBGAs/s1600/Ebuka%2BObi-Uchendu-recent-pics-2-min.jpg');
+}
+
+.team-section-image-3{
+	background-image: url('https://www.thosewhoinspire.com/wp-content/uploads/2019/01/Mary-Akpobome.jpg');
+}
+
+.team-name{
+	text-align: left;
+	padding-top: 50px;
+}
+
+.team-position{
+	text-align: left;
+	font-size: 15px;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-envelope{
+	color: #fff;
+	margin: 7px;
+}
+
+.portfolio-span-descr{
+	font-size: 20px;
+	color: #464646;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.team-contact-des{
+	margin-bottom: 35px;
+}
+
+.contact-section{
+	background-color: #ba353f;
+	margin-top: 60px;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact-form h2{
+	color: #fff;
+	padding-top: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}
+
+hr{ 
+	width: 35%;
+	margin-left: 160px;
+	margin-bottom: 20px;
+}
+
+hr.hr-style {
+  border-top: 1px solid #fff;
+}
+
+.msg{
+	width: 500px;
+	background: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	font-size: 18px;
+	margin-bottom: 16px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+::placeholder { 
+  color: #fff;
+}
+
+:-ms-input-placeholder { 
+  color: #fff;
+}
+
+::-ms-input-placeholder { 
+  color: #fff;
+}
+
+.msg-btn{
+	background-color: #ba353f;
+	width: 170px;
+	border-color: transparent;
+	border: 1px solid #fff;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+.msg-btn:hover{
+	cursor: pointer;
+	background-color: #ccc;
+	color: #232323;
+}
+
+footer{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('http://www.unistoretz.com/magazine/wp-content/uploads/2017/07/OnlineLearningHistoricallyBlackColleges-1540x740-770x370.png');
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+	color: #f0f0f0;
+	margin-top: 50px;
+}
+
+.footer-section{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 100%;
+}
+
+.footer-col{
+	padding-top: 70px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.footer-col h1{
+	font-size: 18px;
+	color: #ccc;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 40px;
+}
+
+.footer-col p{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter,
+.fa-google-plus-square{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-email{
+	width: 200px;
+	padding: 20px 30px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.subscribetion-btn{
+	text-decoration: none;
+	width: 200px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	background-color: #ba353f;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 60px;
+}
+
+.copyright{
+	margin-top: 35px;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+	background-color: #ba353f;
+}
+.copyright-name{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 13px;
+}
